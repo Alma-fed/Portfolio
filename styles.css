@@ -6,7 +6,7 @@ html{
     background-color: #19191C;
 }
 
-h1{
+.hero-title {
     font-family: Victor Mono, Arial, sans-serif;
     font-size: clamp(1.5rem, 3vw, 2.5rem);
     font-weight: 120;
@@ -21,11 +21,11 @@ body {
     font-weight: 90;
   }
   
-  h2 {
+.hero-subtitle {
     font-size: clamp(0.9rem, 1.8vw, 1.5rem);
     padding-top: 32px;
     padding-left: 80px;
-  }
+}
   
   .typing {
     color: #FF8CAA;
@@ -46,7 +46,8 @@ body {
       width: 34ch;
     }
   }
-p{
+
+  .hero-description {
     font-size: 0.9rem;
     color: #D9D9D9;
     padding-top: 48px;
@@ -171,7 +172,7 @@ p{
   z-index: 2;
 }
   
-.particles span {
+.particles-container span {
     position: absolute;
     width: 6px;
     height: 6px;
@@ -180,178 +181,178 @@ p{
     animation: float 5s ease-in-out infinite;
   }
 
-  .particles span:nth-child(1) {
+  .particles-container span:nth-child(1) {
     left: 5%;
     top: 8%;
   }
   
-  .particles span:nth-child(2) {
+  .particles-container span:nth-child(2) {
     left: 18%;
     top: 20%;
   }
   
-  .particles span:nth-child(3) {
+  .particles-container span:nth-child(3) {
     left: 32%;
     top: 10%;
   }
   
-  .particles span:nth-child(4) {
+  .particles-container span:nth-child(4) {
     left: 47%;
     top: 25%;
   }
   
-  .particles span:nth-child(5) {
+  .particles-container span:nth-child(5) {
     left: 63%;
     top: 12%;
   }
   
-  .particles span:nth-child(6) {
+  .particles-container span:nth-child(6) {
     left: 80%;
     top: 30%;
   }
   
-  .particles span:nth-child(7) {
+  .particles-container span:nth-child(7) {
     left: 92%;
     top: 10%;
   }
   
-  .particles span:nth-child(8) {
+  .particles-container span:nth-child(8) {
     left: 10%;
     top: 38%;
   }
   
-  .particles span:nth-child(9) {
+  .particles-container span:nth-child(9) {
     left: 25%;
     top: 48%;
   }
   
-  .particles span:nth-child(10) {
+  .particles-container span:nth-child(10) {
     left: 42%;
     top: 44%;
   }
   
-  .particles span:nth-child(11) {
+  .particles-container span:nth-child(11) {
     left: 35%;
     top: 72%;
   }
   
-  .particles span:nth-child(12) {
+  .particles-container span:nth-child(12) {
     left: 72%;
     top: 45%;
   }
   
-  .particles span:nth-child(13) {
+  .particles-container span:nth-child(13) {
     left: 88%;
     top: 55%;
   }
   
-  .particles span:nth-child(14) {
+  .particles-container span:nth-child(14) {
     left: 5%;
     top: 65%;
   }
   
-  .particles span:nth-child(15) {
+  .particles-container span:nth-child(15) {
     left: 20%;
     top: 75%;
   }
   
-  .particles span:nth-child(16) {
+  .particles-container span:nth-child(16) {
     left: 35%;
     top: 68%;
   }
   
-  .particles span:nth-child(17) {
+  .particles-container span:nth-child(17) {
     left: 50%;
     top: 80%;
   }
   
-  .particles span:nth-child(18) {
+  .particles-container span:nth-child(18) {
     left: 67%;
     top: 70%;
   }
   
-  .particles span:nth-child(19) {
+  .particles-container span:nth-child(19) {
     left: 82%;
     top: 82%;
   }
   
-  .particles span:nth-child(20) {
+  .particles-container span:nth-child(20) {
     left: 94%;
     top: 72%;
   }
   
-  .particles span:nth-child(21) {
+  .particles-container span:nth-child(21) {
     left: 12%;
     top: 78.5%;
 
  }
   
-  .particles span:nth-child(22) {
+  .particles-container span:nth-child(22) {
     left: 30%;
     top: 82%;
   }
   
-  .particles span:nth-child(23) {
+  .particles-container span:nth-child(23) {
     left: 48%;
     top: 60%;
   }
   
-  .particles span:nth-child(24) {
+  .particles-container span:nth-child(24) {
     left: 75%;
     top: 92%;
   }
   
-  .particles span:nth-child(25) {
+  .particles-container span:nth-child(25) {
     left: 90%;
     top: 40%;
   }
 
- .particles span:nth-child(26) {
+ .particles-container span:nth-child(26) {
     left: 38%;
     top: 52%;
   }
 
-  .particles span:nth-child(27) {
+  .particles-container span:nth-child(27) {
     left: 70%;
     top: 40%;
   }
 
-  .particles span:nth-child(28) {
+  .particles-container span:nth-child(28) {
     left: 10%;
     top: 25%;
   }
 
-  .particles span:nth-child(29) {
+  .particles-container span:nth-child(29) {
     left: 55%;
     top: 30%;
   }
 
-  .particles span:nth-child(30) {
+  .particles-container span:nth-child(30) {
     left: 53%;
     top: 76%;
   }
 
-  .particles span:nth-child(31) {
+  .particles-container span:nth-child(31) {
     left: 24%;
     top: 28%;
   }
 
-  .particles span:nth-child(32) {
+  .particles-container span:nth-child(32) {
     left: 82%;
     top: 36%;
   }
 
-  .particles span:nth-child(33) {
+  .particles-container span:nth-child(33) {
     left: 60%;
     top: 56%;
   }
 
-  .particles span:nth-child(34) {
+  .particles-container span:nth-child(34) {
     left: 11%;
     top: 39%;
   }
 
-  .particles span:nth-child(35) {
+  .particles-container span:nth-child(35) {
     left: 67%;
     top: 63%;
 }
@@ -369,142 +370,142 @@ p{
       transform: translate(0, 0);
     }
   }
-  .particles span:nth-child(1) {
+  .particles-container span:nth-child(1) {
     animation-duration: 2.5s;
   }
   
-  .particles span:nth-child(2) {
+  .particles-container span:nth-child(2) {
     animation-duration: 4s;
   }
   
-  .particles span:nth-child(3) {
+  .particles-container span:nth-child(3) {
     animation-duration: 5s;
   }
   
-  .particles span:nth-child(4) {
+  .particles-container span:nth-child(4) {
     animation-duration: 4s;
   }
   
-  .particles span:nth-child(5) {
+  .particles-container span:nth-child(5) {
     animation-duration: 4.5s;
   }
-  .particles span:nth-child(6) {
+  .particles-container span:nth-child(6) {
     animation-delay: 1s;
   }
   
-  .particles span:nth-child(7) {
+  .particles-container span:nth-child(7) {
     animation-delay: 2s;
   }
   
-  .particles span:nth-child(8) {
+  .particles-container span:nth-child(8) {
     animation-delay: 0.5s;
   }
 
-  .particles span:nth-child(9) {
+  .particles-container span:nth-child(9) {
     animation-delay: 0.8s;
   }
 
-  .particles span:nth-child(10) {
+  .particles-container span:nth-child(10) {
     animation-delay: 2s;
   }
 
-  .particles span:nth-child(11) {
+  .particles-container span:nth-child(11) {
     animation-delay: 2s;
   }
 
-  .particles span:nth-child(12) {
+  .particles-container span:nth-child(12) {
     animation-delay: 1s;
   }
 
-  .particles span:nth-child(13) {
+  .particles-container span:nth-child(13) {
     animation-delay: 2s;
   }
 
-  .particles span:nth-child(14) {
+  .particles-container span:nth-child(14) {
     animation-delay: 0.5s;
   }
 
-  .particles span:nth-child(15) {
+  .particles-container span:nth-child(15) {
     animation-delay: 0.5s;
   }
 
-  .particles span:nth-child(16) {
+  .particles-container span:nth-child(16) {
     animation-delay: 0.7s;
   }
 
-  .particles span:nth-child(17) {
+  .particles-container span:nth-child(17) {
     animation-delay: 1.5s;
   }
 
-  .particles span:nth-child(18) {
+  .particles-container span:nth-child(18) {
     animation-delay: 0.5s;
   }
 
-  .particles span:nth-child(19) {
+  .particles-container span:nth-child(19) {
     animation-delay: 0.5s;
   }
 
-  .particles span:nth-child(20) {
+  .particles-container span:nth-child(20) {
     animation-delay: 2s;
   }
 
-  .particles span:nth-child(21) {
+  .particles-container span:nth-child(21) {
     animation-delay: 2.5s;
   }
 
-  .particles span:nth-child(22) {
+  .particles-container span:nth-child(22) {
     animation-delay: 0.5s;
   }
 
-  .particles span:nth-child(23) {
+  .particles-container span:nth-child(23) {
     animation-delay: 2.5s;
   }
 
-  .particles span:nth-child(24) {
+  .particles-container span:nth-child(24) {
     animation-delay: 0.5s;
   }
 
-  .particles span:nth-child(25) {
+  .particles-container span:nth-child(25) {
     animation-delay: 1.5s;
   }
 
-  .particles span:nth-child(26) {
+  .particles-container span:nth-child(26) {
     animation-delay: 0.5s;
   }
 
-  .particles span:nth-child(27) {
+  .particles-container span:nth-child(27) {
     animation-delay: 0.5s;
   }
 
-  .particles span:nth-child(28) {
+  .particles-container span:nth-child(28) {
     animation-delay: 0.5s;
   }
 
-  .particles span:nth-child(29) {
+  .particles-container span:nth-child(29) {
     animation-delay: 0.5s;
   }
 
-  .particles span:nth-child(30) {
+  .particles-container span:nth-child(30) {
     animation-delay: 0.5s;
   }
 
-  .particles span:nth-child(31) {
+  .particles-container span:nth-child(31) {
     animation-delay: 0.5s;
   }
 
-  .particles span:nth-child(32) {
+  .particles-container span:nth-child(32) {
     animation-delay: 0.5s;
   }
 
-  .particles span:nth-child(33) {
+  .particles-container span:nth-child(33) {
     animation-delay: 0.5s;
   }
 
-  .particles span:nth-child(34) {
+  .particles-container span:nth-child(34) {
     animation-delay: 0.5s;
   }
 
-  .particles span:nth-child(35) {
+  .particles-container span:nth-child(35) {
     animation-delay: 0.5s;
   }
 
@@ -604,3 +605,80 @@ p{
       border-radius: 8px;
     }
   }
+
+  .portrait-about{
+    top: 14%;
+    left: 52%;
+    position: absolute;
+    width: min(650px, 100%);
+    height: min(730px, 100%);
+
+  }
+
+  .about-title {
+    font-family: Victor Mono, Arial, sans-serif;
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
+    font-weight: 120;
+    color: #FF8CAA;
+    margin-left: 90px;
+    margin-top: 5%;
+}
+
+.about-text {
+    font-family: Victor Mono, Arial, sans-serif;
+    font-size: 0.9rem;
+    color: #D9D9D9;
+    line-height: 34px;
+    max-width: 650px;
+    height: min(730px, 100%);
+    margin-left: 90px;
+    margin-top: 3%;
+}
+
+@media (max-width: 1000px) and (min-width: 601px) {
+
+    .portrait-about {
+        width: 45%;
+        height: auto;
+        left: 75%;
+        top: 35%;
+    }
+
+    .about-title {
+        margin-left: 60px;
+        margin-top: 5%;
+    }
+
+    .about-text {
+        max-width: 45%;
+        margin-left: 75px;
+        line-height: 28px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .portrait-about {
+        position: static;
+        display: block;
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        margin: 30px auto 0;
+    }
+
+    .about-title {
+        font-size: 1.4rem;
+        margin: 40px 25px 0;
+    }
+
+
+    .about-text {
+        font-size: 0.9rem;
+        line-height: 24px;
+        max-width: none;
+        margin: 20px 25px 40px;
+    }
+
+}
