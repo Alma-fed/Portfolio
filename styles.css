@@ -534,29 +534,23 @@ body {
       width: 18px;
       height: 18px;
     }
-  
-  
     .hero-visual {
-      position: relative;
+        position: relative;
+        top: auto;
+        right: auto;
+        width: 100%;
+        height: 200px;
+        margin-top: 10px;
+      }
+    
+      .portrait {
+        width: 400px;
+        height: auto;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
   
-      top: auto;
-      right: auto;
-  
-      width: 100%;
-      height: 260px;
-  
-      margin-top: 22px;
-    }
-  
-    .portrait {
-      width: 400px;
-      height: auto;
-  
-      left: 50%;
-      top: 50%;
-  
-      transform: translate(-50%, -50%);
-    }
   
     .particles-container{
       width: 100%;
@@ -600,7 +594,7 @@ body {
       padding: 10px 22px;
   
       margin-left: 37%;  
-      margin-bottom: 8%;
+      margin-bottom: 4%;
       margin-top: 5%;
       border-radius: 8px;
     }
@@ -617,7 +611,7 @@ body {
 
   .about-title {
     font-family: Victor Mono, Arial, sans-serif;
-    font-size: clamp(1.5rem, 3vw, 2.5rem);
+    font-size: clamp(1rem, 3vw, 1.8rem);
     font-weight: 120;
     color: #FF8CAA;
     margin-left: 90px;
@@ -681,4 +675,110 @@ body {
         margin: 20px 25px 40px;
     }
 
+}
+
+.ux-work {
+    font-family: Victor Mono, Arial, sans-serif;
+    font-size: clamp(1rem, 2.3vw, 1.3rem);
+    font-weight: 12px;
+    color: #FDDCE4;
+    margin-left: 90px;
+    margin-top: 3%;
+}
+.development-work {
+    font-family: Victor Mono, Arial, sans-serif;
+    font-size: clamp(1rem, 2.3vw, 1.3rem);
+    font-weight: 12px;
+    color: #FDDCE4;
+    margin-left: 90px;
+    margin-top: 5%;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    width: 80%;
+    max-width: 1600px;
+    margin: 50px auto;
+}
+
+.card {
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+.Digipay {
+    background-image: url("Fintech project.svg");
+}
+
+.Fashionpub {
+    background-image: url("Fashionpub project.svg");
+}
+
+.Paramount {
+    background-image: url("Paramont project.svg");
+}
+.project-info {
+    font-family: Manrope, Arial, sans-serif;
+    color: white;
+    font-size: clamp(0.7rem, 1vw, 1.4rem);
+    opacity: 0;
+    text-align: center;
+    margin-bottom: 30px;
+    transition: opacity 0.3s ease;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.card:hover .overlay {
+    opacity: 1;
+}
+
+.card:hover .project-info {
+    opacity: 1;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    width: 90%;
+    max-width: 1500px;
+    margin: 50px auto;
+}
+@media (max-width: 600px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+    .development-work {
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 5%;
+      }
+}
+footer {
+    display: flex;
+    justify-content: flex-end;
+    
+    font-family: Manrope, Arial, sans-serif;
+    color: white;
+    font-size: clamp(0.5rem, 0.9vw, 1rem);
+
+    padding: 20px 80px;
 }
